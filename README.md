@@ -25,7 +25,7 @@ The code files are named in the order of execution. For each state, we focus on 
   - Average the OD matrix across all 30 days for each ε level.
 
 - **03_Noise_Aggregate_Data.ipynb**  
-  Adds noise to the aggregated weight matrix for the *n* counties in each state.
+  Adds noise to the aggregated weight matrix for the *n* counties in each state (There are 61 counties in New York with pop > 10,000, n = 61).
 
 - **04_Matrix_Transformation_Visualization_individual.ipynb**  
   Visualizes `p_ii`, `p_ij`, and the proportion of zero links for each ε value, using data with noise added at the individual level.
@@ -50,7 +50,7 @@ The code files are named in the order of execution. For each state, we focus on 
   - Under “Geography,” select “Block Group”
   - Choose the relevant state
   - Select desired counties and block groups
-  - Download the latest 5-Year ACS Estimates (table B01003 "Total Population" is recommended)
+  - Download the latest 5-Year ACS Estimates (table **B01003** "Total Population" is recommended)
 
 - **tl_2020_36_bg/**  
   Shapefile for Census Block Groups, also from [census.gov](https://www.census.gov).  
